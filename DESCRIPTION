@@ -1,13 +1,16 @@
 Package: npdfcast
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Forecast the Demand for New Products
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Mohammed Hichame", "BENBITOUR", email = "res.mhichame@gmail.com",
+  role = c("aut", "cre"))
+Description: Simulate and forecast the demand for ready to launch new products
+    in the introduction and growth phases.
+License: MIT + file LICENSE
+Imports:
+    dplyr
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/mohammedhichame/npdfcast
 BugReports: https://github.com/mohammedhichame/npdfcast/issues
+RoxygenNote: 7.3.2
